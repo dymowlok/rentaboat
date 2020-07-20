@@ -361,18 +361,7 @@
     </section>
 
 
-    <script>
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function () {
-            var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos) {
-                document.getElementById("navbar").style.top = ".75vh";
-            } else {
-                document.getElementById("navbar").style.top = "-20vh";
-            }
-            prevScrollpos = currentScrollPos;
-        }
-    </script>
+
 
     <script>
         var prevScrollpos = window.pageYOffset;
@@ -380,8 +369,10 @@
             var currentScrollPos = window.pageYOffset;
             if (prevScrollpos > currentScrollPos) {
                 document.getElementById("navbar_desktop").style.top = "2vw";
+                document.getElementById("navbar").style.top = "10.75vh";
             } else {
                 document.getElementById("navbar_desktop").style.top = "-15vh";
+                document.getElementById("navbar").style.top = "-8vh";
             }
             prevScrollpos = currentScrollPos;
         }
