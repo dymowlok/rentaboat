@@ -73,6 +73,8 @@ section {
     color: black;
 }
 
+button{background-color:transparent;opacity:.85;transition:.3s;}
+button:hover{opacity:1;}
 @media (min-width:320px) {
 
     h1,
